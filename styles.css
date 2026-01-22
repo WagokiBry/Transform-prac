@@ -1,7 +1,19 @@
 h1 {
     font-size: 2em;
-    transform: scale(2,6);
+    
     transform: translate(103px, 20px);
     
+}
+
+.red-box,
+.blue-box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background: red;
+  transform: rotate(45deg) translate(200%);
 }
 
