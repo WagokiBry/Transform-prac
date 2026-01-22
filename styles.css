@@ -12,8 +12,12 @@ h1 {
   height: 100px;
 }
 
+/* .scene{
+perspective: 100px;
+} */
+
 .red-box {
   background: red;
-  transform: rotate(45deg) translate(200%);
+  transform: translateX(140px)  ;
 }
 
