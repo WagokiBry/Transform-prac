@@ -6,11 +6,17 @@ h1 {
 }
 
 button {
-  transition-property: background-color;
+    background-color: red;
+     width: 200px;
+     
+     color: white;
+  transition-property: background-color, transform;
+  transition: 1s ease-in-out ;
 }
 
 button:hover {
   background-color: black;
-  width: 200px;
+ transform: scale(1.5);
+  
 }
 
