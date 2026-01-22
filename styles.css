@@ -1,6 +1,7 @@
 h1 {
     font-size: 2em;
-    transform: scaleX(2);
+    transform: scale(2,6);
+    transform: translate(103px, 20px);
     
 }
 
