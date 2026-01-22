@@ -5,19 +5,12 @@ h1 {
     
 }
 
-.red-box,
-.blue-box {
-  position: absolute;
-  width: 100px;
-  height: 100px;
+button {
+  transition-property: background-color;
 }
 
-/* .scene{
-perspective: 100px;
-} */
-
-.red-box {
-  background: red;
-  transform: translateX(140px)  ;
+button:hover {
+  background-color: black;
+  width: 200px;
 }
 
