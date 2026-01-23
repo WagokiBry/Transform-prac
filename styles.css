@@ -9,3 +9,11 @@ transition: transform 0.3s ease-out;
   transform: scale(1.2) rotate(10deg);
 
 }
+
+.trans {
+transition: transform 0.4s ease-in-out
+}
+
+.trans:hover {
+  transform: translateX(100px);
+}
