@@ -1,8 +1,13 @@
 .box {
   width: 100px; height: 100px; background-color: red;
+  animation-name: moveRight;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  
+  
 }
 
-@keyframes{
+@keyframes moveRight{
   from{
 transform: translateX(0px)
   }
