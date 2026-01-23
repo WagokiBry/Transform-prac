@@ -1,55 +1,22 @@
-.blue {
-width: 100px;
-height: 100px;
-background-color: blue;
-transition: transform 0.3s ease-out;
+
+ 
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  animation-name: moveBox;
+
+  animation-duration: 4s;
 }
 
-.blue:hover{
-  transform: scale(1.2) rotate(10deg);
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
 
-}
-
-.trans {
-transition: transform 0.4s ease-in-out
-}
-
-.trans:hover {
-  transform: translateX(100px);
-}
-
-.card {
-  width: 200px;
-  height: 150px;
-  background-color: aqua;
-  transition: transform 0.25s ease;
-}
-
-.card:hover{
-  transform: translateY(-20px) scale(1.05);
-}
-
-ul{
-  display: flex;
-  
-}
-
-li {
-  margin: 20px;
-  list-style-type: none;
-  transition: transform 0.3s ease;
-  transform-origin: left;
-}
-
-li:hover{
-  transform: scaleX(1.5);
-}
-
-.cta-button{
-will-change: transform;
-transition: transform 0.3s ease;
-margin: 0 auto;
-}
-.cta-button:hover{
-   transform: scaleX(1.5);
+  100% {
+    transform: translateX(200px);
+  }
 }
