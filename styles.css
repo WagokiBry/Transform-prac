@@ -47,7 +47,9 @@ li:hover{
 
 .cta-button{
 will-change: transform;
+transition: transform 0.3s ease;
+margin: 0 auto;
 }
 .cta-button:hover{
-  
+   transform: scaleX(1.5);
 }
