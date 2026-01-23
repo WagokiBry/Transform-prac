@@ -1,22 +1,8 @@
-h1 {
-    font-size: 2em;
-    
-    transform: translate(103px, 20px);
-    
+.blue {
+width: 100px;
+height: 100px;
 }
 
-button {
-    background-color: red;
-     width: 200px;
-     
-     color: white;
-  transition-property: background-color, transform;
-  transition: 1s ease-in-out ;
-}
+.blue:hover{
 
-button:hover {
-  background-color: black;
- transform: scale(1.5);
-  
 }
-
