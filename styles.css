@@ -44,3 +44,10 @@ li {
 li:hover{
   transform: scaleX(1.5);
 }
+
+.cta-button{
+will-change: transform;
+}
+.cta-button:hover{
+  
+}
