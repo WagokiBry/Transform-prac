@@ -1,8 +1,10 @@
 .blue {
 width: 100px;
 height: 100px;
+background-color: blue;
 }
 
 .blue:hover{
+  transform: scale(1.2) rotate(10deg);
 
 }
