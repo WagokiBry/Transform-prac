@@ -1,0 +1,12 @@
+.box {
+  width: 100px; height: 100px; background-color: red;
+}
+
+@keyframes{
+  from{
+transform: translateX(0px)
+  }
+  to{
+    transform: translateX(200px)
+  }
+}
