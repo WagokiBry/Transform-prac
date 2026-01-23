@@ -35,9 +35,10 @@ ul{
 }
 
 li {
-  margin: 10px;
+  margin: 20px;
   list-style-type: none;
   transition: transform 0.3s ease;
+  transform-origin: left;
 }
 
 li:hover{
